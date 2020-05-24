@@ -1,0 +1,16 @@
+var arr = array[9];
+arr[0] = null;
+arr[1] = false;
+arr[2] = true;
+arr[3] = 1;
+arr[4] = 3.1415926;
+arr[5] = object;
+arr[6] = arr;
+arr[7] = function(){ };
+arr[8] = Print;
+var i = 0;
+while(i < ArrayLength(arr)) {
+	Print(arr[i]);
+	Print('\n');
+	i = i + 1;
+}

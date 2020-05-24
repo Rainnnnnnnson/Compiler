@@ -1,0 +1,32 @@
+function IsPrime(number){
+	if(number < 2){
+		return false;
+	}
+	var i = 2;
+	while(i < number){
+		if((number % i) == 0){
+			return false;
+		}
+		i = i + 1;
+	}
+	return true;
+}
+
+function ForEach(number, func){
+	var i = 0;
+	while(i < number){
+		func(i);
+		i = i + 1;
+	}
+}
+
+function PrintPrime(number){
+	ForEach(10, function(number){
+		if(IsPrime(number)){
+			Print(number);
+			Print("    ");
+		}
+	});
+}
+
+PrintPrime(10);

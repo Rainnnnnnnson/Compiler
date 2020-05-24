@@ -1,0 +1,13 @@
+function Create(){
+    var o = object;
+    o.h = "Hello";
+    /* 注释asdfvc */  o.w = 'W' + 'o' + 'r' + 'l' + 'd';
+    //单行注释  return 1;
+    return o;
+}/*  多
+     行
+     注
+     释
+*/
+var o = Create();
+Print(o.h + ' ' + o.w);

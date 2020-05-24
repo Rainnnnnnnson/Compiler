@@ -1,0 +1,28 @@
+var arr = array[5];
+
+//true  :  3 == 3
+arr[0] = 1 + 2 * 3 - 4 == (1 + 2) * 3 % 6;
+
+//false :  2 > 4
+arr[1] = 1 - -1 > -1 + 2 - -3;
+
+//true
+arr[2] = 1 * 2 + 3 / 4 - 5 % 6 == (1 * 2) + (3 / 4) - (5 % 6);
+
+//true  :  true || false
+arr[3] = arr[0] || arr[1];
+
+//false : true && false;
+arr[4] = arr[0] && arr[1];
+
+function Recursive(arr, index, length){
+	if (index != length) {
+		Print(index);
+		Print(" : ");
+		Print(arr[index]);
+		Print("\n");
+		Recursive(arr, index + 1, length);
+	}
+}
+
+Recursive(arr, 0, 5);
