@@ -1,16 +1,18 @@
 # Compiler
  
-环境 Win10 VS2019(需要googleTest) 
-大约 7000 行
+环境 Win10 VS2019(需要googleTest) <br>
+大约 7000 行<br>
 
-流程
-词法分析 语法分析 语义分析 生成代码 虚拟机执行
 
-关键字 
-null  false  true  var  if  else  while  function  array  object  break  continue  return
 
-符号
-!   +   -   *   /   %   <   <=   >   >=   !=   ==   ( )   [ ]   { }   .   ;  
+流程  <br>
+词法分析 语法分析 语义分析 生成代码 虚拟机执行<br>
+
+关键字 <br>
+null  false  true  var  if  else  while  function  array  object  break  continue  return  <br>
+
+符号  <br>
+!   +   -   *   /   %   <   <=   >   >=   !=   ==   ( )   [ ]   { }   .   ;  <br>
 
 注释        <br>
 //单行注释  <br>
