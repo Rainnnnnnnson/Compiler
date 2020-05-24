@@ -29,15 +29,18 @@ null  false  true  var  if  else  while  function  array  object  break  continu
 
 语法
 ```
-var a = null;  <br>
-var b = false; <br>
-var c = true;  <br>
-var d = 1;  // int   <br>
-var e = 1.2 // float <br>
-var f = array[5];    <br>
+var a = null; 
+var b = false; 
+var c = true;  
+var d = 1;  // int  
+var e = 1.2 // float 
+var f = array[5];    
+f[1] = 2;
+f[2] = 3;
 var g = function(p1, p2){    //不可递归  
     return 0;                            
-};                                      
+};            
+g(1,2);
 function h(p1, p2){          //可以递归 
     while(true){                        
         if(p1){                          
@@ -49,7 +52,8 @@ function h(p1, p2){          //可以递归
         }
     }                                    
     //默认return null;                  
-}                                     
+}         
+h(false,true);
 var i = object;                          
 i.i = 1;                                
 i.o = 2;                                 
