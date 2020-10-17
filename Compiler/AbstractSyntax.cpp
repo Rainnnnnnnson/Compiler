@@ -3,9 +3,10 @@
 #include <typeindex>
 #include <memory>
 #include <set>
-#include<functional>
+#include <functional>
 #include <algorithm>
-#include<optional>
+#include <optional>
+#include <iterator>
 using std::optional;
 using std::function;
 using std::make_unique;

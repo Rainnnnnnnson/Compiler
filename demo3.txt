@@ -21,7 +21,7 @@ function ForEach(number, func){
 }
 
 function PrintPrime(number){
-	ForEach(10, function(number){
+	ForEach(number, function(number){
 		if(IsPrime(number)){
 			Print(number);
 			Print("    ");
